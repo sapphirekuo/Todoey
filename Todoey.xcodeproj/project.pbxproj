@@ -13,6 +13,7 @@
 		B58BF89620FC25FA00BB2983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58BF89520FC25FA00BB2983 /* Assets.xcassets */; };
 		B58BF89920FC25FA00BB2983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58BF89720FC25FA00BB2983 /* LaunchScreen.storyboard */; };
 		B58BF8A820FC85A300BB2983 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B58BF8A620FC85A300BB2983 /* DataModel.xcdatamodeld */; };
+		B58BF8CB20FD909700BB2983 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BF8CA20FD909700BB2983 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B58BF89820FC25FA00BB2983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58BF89A20FC25FA00BB2983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58BF8A720FC85A300BB2983 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		B58BF8CA20FD909700BB2983 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Todoey/Controllers/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B58BF8A320FC443700BB2983 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B58BF8CA20FD909700BB2983 /* CategoryViewController.swift */,
 				B58BF89020FC25F700BB2983 /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58BF8CB20FD909700BB2983 /* CategoryViewController.swift in Sources */,
 				B58BF89120FC25F700BB2983 /* ToDoListViewController.swift in Sources */,
 				B58BF8A820FC85A300BB2983 /* DataModel.xcdatamodeld in Sources */,
 				B58BF88F20FC25F700BB2983 /* AppDelegate.swift in Sources */,
